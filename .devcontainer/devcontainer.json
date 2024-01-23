@@ -19,7 +19,7 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "./scripts/install.sh",
 
-	"mounts": ["source=${localWorkspaceFolder}/src,target=/workspace/src,type=bind"]
+	"mounts": ["source=${localWorkspaceFolder},target=/workspace,type=bind"]
 
 	// Configure tool-specific properties.
 	// "customizations": {},
