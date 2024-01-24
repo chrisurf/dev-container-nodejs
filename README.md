@@ -41,8 +41,6 @@ To use this dev container, you need to have Docker installed on your system. If 
 - **Oh My Zsh**: Customize the `.zshrc` file to tweak the Zsh environment.
 - **AWS CLI, Ansible, Terraform**: Update to newer versions by modifying the Dockerfile or using package managers inside the container.
 
-
-
 ## License
 
 This project is licensed under [MIT](./LICENSE)

@@ -1,0 +1,6 @@
+- name: Setup Zsh environment on hosts
+  hosts: localhost
+  connection: local  
+  become: true
+  roles:
+    - chrisurf.oh_my_zsh
