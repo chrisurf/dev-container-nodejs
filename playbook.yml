@@ -4,3 +4,5 @@
   become: true
   roles:
     - chrisurf.oh_my_zsh
+  vars:
+    user: node

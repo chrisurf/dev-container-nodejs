@@ -12,6 +12,7 @@ Before you begin, ensure you have the following installed:
 
 - **Node.js & TypeScript**: Set up with the latest stable versions of Node.js and TypeScript for backend development.
 - **Oh My Zsh**: A delightful, open-source, community-driven framework for managing your Zsh configuration.
+- **Powerlevel10k**: A flexible Zsh theme with improved experience for better usability and aesthetics.
 - **AWS CLI**: Pre-installed Amazon Web Services Command Line Interface for managing AWS services.
 - **Ansible**: Included for powerful IT automation that reduces complexity and promotes scalability.
 - **Terraform**: Pre-installed to enable you to safely and predictably create, change, and improve infrastructure.
@@ -37,10 +38,11 @@ To use this dev container, you need to have Docker installed on your system. If 
 
 ## Customizing the Environment
 
-- **Node.js & TypeScript**: Update the versions in the `devcontainer.json` as needed.
-- **Oh My Zsh**: Customize the `.zshrc` file to tweak the Zsh environment.
+- **Node.js & TypeScript**: Update the versions in the `.devcontainer/devcontainer.json` as needed.
+- **Oh My Zsh**: Customize the `files/.zshrc` file to tweak the Zsh environment.
+- **Powerlevel10k**: Customize the `files/.p10k.zsh` file to tweak the Zsh theme.
 - **AWS CLI, Ansible, Terraform**: Update to newer versions by modifying the Dockerfile or using package managers inside the container.
 
 ## License
 
-This project is licensed under [MIT](./LICENSE)
+This project is maintained by [chrisurf](https://github.com/chrisurf) and licensed under [MIT](./LICENSE)
